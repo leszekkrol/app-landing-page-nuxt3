@@ -5,6 +5,10 @@
 [![Vue](https://img.shields.io/badge/vue-blue)](https://vuejs.org)
 [![license](https://img.shields.io/badge/license-mit-brightgreen.svg)](https://en.wikipedia.org/wiki/MIT_License)
 
+
+![photo](https://github.com/leszekkrol/app-landing-page-nuxt3/assets/10097678/1dddd073-0a45-4d7c-a666-c1ed3c991579)
+
+
 ## 🛠 Technology Stack
 - [Nuxt 3](https://nuxt.com) - framework for building Vue.js applications. It offers features like Server-Side Rendering, automatic code splitting, and static site generation, among others.
 - [Tailwind](https://tailwindcss.com) - low-level, utility-first CSS framework that promotes highly customizable designs. It enables developers to construct complex designs by assembling utility classes in HTML, thus making CSS more reusable and maintainable.
