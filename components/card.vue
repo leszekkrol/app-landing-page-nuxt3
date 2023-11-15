@@ -1,6 +1,6 @@
 <template>
-  <div class="m-auto mb-5 flex w-full max-w-[48rem] flex-row rounded-2xl bg-white bg-clip-border text-gray-700 shadow-md">
-    <div v-if="image" class="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
+  <div :class="{'reverse-flex': shouldReverse, 'justify-between': shouldReverse}" class="m-auto mb-5 flex w-full max-w-[48rem] flex-row rounded-2xl bg-white bg-clip-border text-gray-700 shadow-md">
+    <div v-if="image" :class="{'rounded-r-none': !shouldReverse, 'rounded-l-none': shouldReverse}" class="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">
       <img :src="image" alt="image" class="h-full w-full object-cover">
     </div>
     <div class="p-6">
@@ -27,6 +27,7 @@
 
 <script setup>
 defineProps({
+  shouldReverse: Boolean,
   label: String,
   title: String,
   description: String,
