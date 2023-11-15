@@ -1,5 +1,5 @@
 <template>
-  <footer class="w-full mx-auto max-w-screen-xl p-4 flex flex-col items-center space-y-5">
+  <footer class="w-full mx-auto max-w-screen-xl p-4 mt-10 mb-10 flex flex-col items-center space-y-5">
     <img class="w-20" src="~/assets/app-logo.png" alt="Logo">
     <h1 v-if="title" class="text-3xl font-extrabold text-center">{{ title }}</h1>
     <div class="flex flex-row space-x-5">
