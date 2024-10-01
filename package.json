@@ -11,9 +11,9 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "nuxt": "^3.12.4",
-    "vue": "^3.4.34",
-    "vue-router": "^4.4.0"
+    "nuxt": "^3.13.2",
+    "vue": "^3.5.10",
+    "vue-router": "^4.4.5"
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.12.1"
