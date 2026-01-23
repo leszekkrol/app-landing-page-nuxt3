@@ -1,17 +1,127 @@
 # App Landing Page
-## Promoting Your Mobile Application 
+## Modern Mobile Application Landing Page
 
-[![Nuxt](https://img.shields.io/badge/nuxt-4.svg)](https://nuxt.com)
-[![Vue](https://img.shields.io/badge/vue-blue)](https://vuejs.org)
-[![license](https://img.shields.io/badge/license-mit-brightgreen.svg)](https://en.wikipedia.org/wiki/MIT_License)
+[![Nuxt](https://img.shields.io/badge/nuxt-4.3.0-00DC82?logo=nuxt.js)](https://nuxt.com)
+[![Vue](https://img.shields.io/badge/vue-3.5.27-4FC08D?logo=vue.js)](https://vuejs.org)
+[![Tailwind CSS](https://img.shields.io/badge/tailwind-3.4.19-38B2AC?logo=tailwind-css)](https://tailwindcss.com)
+[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
 
+A beautiful, modern landing page for mobile applications built with Nuxt 4 and designed following 2026 UI/UX trends.
 
 ![photo](https://github.com/leszekkrol/app-landing-page-nuxt3/assets/10097678/1dddd073-0a45-4d7c-a666-c1ed3c991579)
 
+## ✨ Features
+
+- 🎨 **Modern 2026 Design** - Gradient backgrounds, glassmorphism, and smooth animations
+- 🚀 **Nuxt 4** - Latest framework with improved performance and DX
+- 💎 **Glass Morphism** - Beautiful backdrop blur effects
+- 🎭 **Interactive Components** - Accordion FAQ, hover animations, and transitions
+- 📱 **Fully Responsive** - Optimized for all devices
+- 🔍 **SEO Optimized** - Complete meta tags, Open Graph, Twitter Cards
+- ⚡ **Lightning Fast** - Static site generation and optimized assets
+- ♿ **Accessible** - Following WCAG guidelines
+- 🎯 **Zero Config** - Works out of the box
 
 ## 🛠 Technology Stack
-- [Nuxt 4](https://nuxt.com) - The latest version of the intuitive Vue framework for building modern web applications. It offers enhanced performance, improved developer experience, and features like Server-Side Rendering, automatic code splitting, and static site generation.
-- [Tailwind CSS 3](https://tailwindcss.com) - A utility-first CSS framework that promotes highly customizable designs. It enables developers to construct complex designs by assembling utility classes in HTML, thus making CSS more reusable and maintainable.
+
+### Core
+- **[Nuxt 4.3.0](https://nuxt.com)** - The intuitive Vue framework with enhanced performance, improved DX, and features like SSR, automatic code splitting, and static site generation
+- **[Vue 3.5.27](https://vuejs.org)** - Progressive JavaScript framework
+- **[Tailwind CSS 3.4.19](https://tailwindcss.com)** - Utility-first CSS framework for rapid UI development
+
+### DevOps
+- **[Vite 7.3.1](https://vitejs.dev)** - Next generation frontend tooling
+- **[PostCSS](https://postcss.org)** - CSS transformations
+- **[Autoprefixer](https://github.com/postcss/autoprefixer)** - CSS vendor prefixing
+
+## 🎨 Design Features
+
+- **Animated Blob Backgrounds** - Organic floating gradient shapes
+- **Gradient Text** - Eye-catching purple-blue gradients
+- **Interactive Cards** - Hover lift effects with glass morphism
+- **Accordion FAQ** - Smooth expanding/collapsing animations
+- **Responsive Typography** - Optimized for all screen sizes
+- **Modern Color Palette** - Purple, blue, and pink gradients
+
+## 📦 Getting Started
+
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/leszekkrol/app-landing-page-nuxt3.git
+
+# Navigate to project
+cd app-landing-page-nuxt3
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+### Build for Production
+
+```bash
+# Build for production
+npm run build
+
+# Generate static site
+npm run generate
+
+# Preview production build
+npm run preview
+```
+
+## 📁 Project Structure
+
+```
+app-landing-page-nuxt3/
+├── assets/          # Static assets (CSS, images, SVGs)
+├── components/      # Vue components
+│   ├── card.vue     # Feature card component
+│   ├── faq.vue      # FAQ accordion
+│   ├── footer.vue   # Footer component
+│   └── header.vue   # Hero section
+├── layouts/         # Application layouts
+├── pages/           # Application pages
+├── public/          # Public static files
+├── nuxt.config.ts   # Nuxt configuration
+└── tailwind.config.js # Tailwind configuration
+```
+
+## 🔧 Configuration
+
+### SEO Configuration
+Update SEO settings in `nuxt.config.ts` and `pages/index.vue`:
+- Meta tags
+- Open Graph tags
+- Twitter Card tags
+- Canonical URLs
+
+### Styling
+Customize colors and design in:
+- `tailwind.config.js` - Tailwind theme
+- `assets/main.css` - Custom CSS utilities
+
+## 🚀 Deployment
+
+This project can be deployed to:
+- **Vercel** - Zero config deployment
+- **Netlify** - Static site hosting
+- **GitHub Pages** - Free hosting
+- **Any static hosting** - Just upload the `.output/public` folder
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Copyright © 1993-2026 Leszek W. Król
 
 ## ✍️ Development
 It brings immense joy and excitement to know that you're keen on contributing to the projects I'm working on. There's always a world of possibilities that can be explored, and having talented individuals like you onboard can truly make a massive difference. Your interest is deeply appreciated, and it's a reminder of the magic ✨ that happens when open-source developers come together and collaborate.
