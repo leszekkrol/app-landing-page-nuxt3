@@ -1,7 +1,28 @@
 {
   "name": "app-landing-page-nuxt4",
+  "version": "4.0.0",
+  "description": "Modern mobile app landing page built with Nuxt 4 and Tailwind CSS",
+  "author": "Leszek W. Król <https://leszekkrol.com>",
+  "license": "MIT",
   "private": true,
   "type": "module",
+  "keywords": [
+    "nuxt",
+    "nuxt4",
+    "landing-page",
+    "app",
+    "tailwindcss",
+    "vue",
+    "mobile-app"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leszekkrol/app-landing-page-nuxt3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leszekkrol/app-landing-page-nuxt3/issues"
+  },
+  "homepage": "https://github.com/leszekkrol/app-landing-page-nuxt3#readme",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
