@@ -24,30 +24,24 @@
         </p>
       </div>
 
-      <!-- Download buttons with modern styling -->
+      <!-- Download buttons with delicate styling -->
       <div class="flex flex-col sm:flex-row gap-4 mt-8">
         <a v-if="appStoreURL" 
            :href="appStoreURL" 
            target="_blank"
-           class="group relative overflow-hidden rounded-2xl p-1 transition-all duration-300 hover:scale-105">
-          <div class="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl"></div>
-          <div class="relative bg-white rounded-xl px-6 py-3 transition-all duration-300 group-hover:bg-transparent">
-            <img alt="Download on the App Store" 
-                 src="~/assets/download-app-store.svg"
-                 class="h-12 transition-all duration-300 group-hover:brightness-0 group-hover:invert">
-          </div>
+           class="group bg-white/80 backdrop-blur-sm rounded-2xl px-6 py-4 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+          <img alt="Download on the App Store" 
+               src="~/assets/download-app-store.svg"
+               class="h-12 transition-opacity duration-300 group-hover:opacity-80">
         </a>
         
         <a v-if="macStoreURL" 
            :href="macStoreURL" 
            target="_blank"
-           class="group relative overflow-hidden rounded-2xl p-1 transition-all duration-300 hover:scale-105">
-          <div class="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-600 rounded-2xl"></div>
-          <div class="relative bg-white rounded-xl px-6 py-3 transition-all duration-300 group-hover:bg-transparent">
-            <img alt="Download on the Mac App Store" 
-                 src="~/assets/download-mac-app-store.svg"
-                 class="h-12 transition-all duration-300 group-hover:brightness-0 group-hover:invert">
-          </div>
+           class="group bg-white/80 backdrop-blur-sm rounded-2xl px-6 py-4 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+          <img alt="Download on the Mac App Store" 
+               src="~/assets/download-mac-app-store.svg"
+               class="h-12 transition-opacity duration-300 group-hover:opacity-80">
         </a>
       </div>
     </div>
