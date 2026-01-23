@@ -8,7 +8,7 @@
 
 A beautiful, modern landing page for mobile applications built with Nuxt 4 and designed following 2026 UI/UX trends.
 
-![photo](https://github.com/leszekkrol/app-landing-page-nuxt3/assets/10097678/1dddd073-0a45-4d7c-a666-c1ed3c991579)
+<img width="2082" height="1258" alt="Zrzut ekranu 2026-01-23 o 10 48 21" src="https://github.com/user-attachments/assets/15677d21-e3c0-4c44-bcf9-1440fb6afe70" />
 
 ## ✨ Features
 
