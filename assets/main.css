@@ -1,3 +1,11 @@
+/**
+ * App Landing Page - Main Stylesheet
+ * 
+ * @author Leszek W. Król <https://leszekkrol.com>
+ * @license MIT
+ * @copyright 1993-2026 Leszek W. Król
+ */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
