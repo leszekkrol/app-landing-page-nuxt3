@@ -24,24 +24,24 @@
         </p>
       </div>
 
-      <!-- Download buttons with delicate styling -->
-      <div class="flex flex-col sm:flex-row gap-4 mt-8">
+      <!-- Download buttons -->
+      <div class="flex flex-col sm:flex-row gap-5 mt-8">
         <a v-if="appStoreURL" 
            :href="appStoreURL" 
            target="_blank"
-           class="group bg-white/80 backdrop-blur-sm rounded-2xl px-6 py-4 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+           class="transition-opacity duration-300 hover:opacity-75">
           <img alt="Download on the App Store" 
                src="~/assets/download-app-store.svg"
-               class="h-12 transition-opacity duration-300 group-hover:opacity-80">
+               class="h-14">
         </a>
         
         <a v-if="macStoreURL" 
            :href="macStoreURL" 
            target="_blank"
-           class="group bg-white/80 backdrop-blur-sm rounded-2xl px-6 py-4 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+           class="transition-opacity duration-300 hover:opacity-75">
           <img alt="Download on the Mac App Store" 
                src="~/assets/download-mac-app-store.svg"
-               class="h-12 transition-opacity duration-300 group-hover:opacity-80">
+               class="h-14">
         </a>
       </div>
     </div>
