@@ -1,7 +1,7 @@
 # App Landing Page
 ## Promoting Your Mobile Application 
 
-[![Nuxt](https://img.shields.io/badge/nuxt-3.svg)](https://nuxt.com)
+[![Nuxt](https://img.shields.io/badge/nuxt-4.svg)](https://nuxt.com)
 [![Vue](https://img.shields.io/badge/vue-blue)](https://vuejs.org)
 [![license](https://img.shields.io/badge/license-mit-brightgreen.svg)](https://en.wikipedia.org/wiki/MIT_License)
 
@@ -10,8 +10,8 @@
 
 
 ## 🛠 Technology Stack
-- [Nuxt 3](https://nuxt.com) - framework for building Vue.js applications. It offers features like Server-Side Rendering, automatic code splitting, and static site generation, among others.
-- [Tailwind](https://tailwindcss.com) - low-level, utility-first CSS framework that promotes highly customizable designs. It enables developers to construct complex designs by assembling utility classes in HTML, thus making CSS more reusable and maintainable.
+- [Nuxt 4](https://nuxt.com) - The latest version of the intuitive Vue framework for building modern web applications. It offers enhanced performance, improved developer experience, and features like Server-Side Rendering, automatic code splitting, and static site generation.
+- [Tailwind CSS 3](https://tailwindcss.com) - A utility-first CSS framework that promotes highly customizable designs. It enables developers to construct complex designs by assembling utility classes in HTML, thus making CSS more reusable and maintainable.
 
 ## ✍️ Development
 It brings immense joy and excitement to know that you're keen on contributing to the projects I'm working on. There's always a world of possibilities that can be explored, and having talented individuals like you onboard can truly make a massive difference. Your interest is deeply appreciated, and it's a reminder of the magic ✨ that happens when open-source developers come together and collaborate.
