@@ -21,7 +21,7 @@
           <button
             @click="toggleItem(index)"
             class="w-full flex items-center justify-between p-6 text-left transition-all duration-300"
-            :class="openItems.includes(index) ? 'bg-gradient-to-r from-blue-50 to-purple-50' : ''">
+            :class="openItems.includes(index) ? 'bg-gradient-to-r from-blue-50 to-purple-50 pb-4' : ''">
             
             <h3 class="text-xl md:text-2xl font-semibold text-slate-800 pr-8">
               {{ item.question }}
@@ -44,7 +44,7 @@
           
           <div 
             v-show="openItems.includes(index)"
-            class="px-6 pb-6 text-lg text-slate-600 leading-relaxed animate-fadeIn">
+            class="px-6 pt-2 pb-6 text-base md:text-lg text-slate-600 leading-relaxed animate-fadeIn">
             {{ item.answer }}
           </div>
         </div>
