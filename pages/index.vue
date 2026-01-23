@@ -29,6 +29,27 @@
 </template>
 
 <script setup>
+// SEO Meta Tags
+useSeoMeta({
+  title: 'App Landing Page - Download Our Mobile App',
+  description: 'Experience the future of mobile applications with next-gen technology, lightning-fast performance, and bank-level security. Download today!',
+  ogTitle: 'App Landing Page - Download Our Mobile App',
+  ogDescription: 'Experience the future of mobile applications. Download our app today and join thousands of satisfied users worldwide.',
+  ogType: 'website',
+  twitterCard: 'summary_large_image',
+  twitterTitle: 'App Landing Page - Download Our Mobile App',
+  twitterDescription: 'Experience the future of mobile applications with cutting-edge features and world-class security.',
+})
+
+useHead({
+  link: [
+    {
+      rel: 'canonical',
+      href: 'https://yourdomain.com'
+    }
+  ]
+})
+
 const faqData = [
   { 
     question: 'What makes this app different from others?', 
