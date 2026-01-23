@@ -2,6 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-.reverse-flex {
-  flex-direction: row-reverse;
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-slate-50 via-blue-50 to-purple-50;
+    @apply min-h-screen;
+  }
+}
+
+@layer utilities {
+  .reverse-flex {
+    flex-direction: row-reverse;
+  }
+
+  .glass-effect {
+    @apply bg-white/70 backdrop-blur-xl border border-white/20 shadow-xl;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent;
+  }
+
+  .hover-lift {
+    @apply transition-all duration-300 ease-in-out;
+  }
+
+  .hover-lift:hover {
+    @apply -translate-y-2 shadow-2xl;
+  }
 }
