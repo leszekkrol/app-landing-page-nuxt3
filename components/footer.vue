@@ -18,7 +18,7 @@
       </div>
       <div class="mt-8 flex items-center gap-4 text-xs font-medium leading-5 text-zinc-400 max-md:flex-col md:order-1 md:mt-0">
         <div class="order-2 md:order-1">
-          <p>© 2024 Leszek W. Król. All rights reserved.</p>
+          <p>© 2026 Leszek W. Król. All rights reserved.</p>
         </div>
         <div class="order-1 flex gap-4 md:order-2">
           <NuxtLink to="#" class="transition-colors duration-200 hover:text-zinc-300">Terms and Conditions</NuxtLink>
