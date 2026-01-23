@@ -1,14 +1,20 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  future: {
+    compatibilityVersion: 4,
+  },
   app: {
     head: {
-      title: "App Landing Page in Nuxt3",
+      title: "App Landing Page in Nuxt 4",
     },
   },
   css: [
     '~/assets/main.css',
   ],
-  modules: [
-    '@nuxtjs/tailwindcss',
-  ],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
 })
