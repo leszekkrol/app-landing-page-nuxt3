@@ -44,7 +44,7 @@
           
           <div 
             v-show="openItems.includes(index)"
-            class="px-6 pt-2 pb-6 text-base md:text-lg text-slate-600 leading-relaxed animate-fadeIn">
+            class="px-6 pt-4 pb-6 text-base md:text-lg text-slate-600 leading-relaxed animate-fadeIn">
             {{ item.answer }}
           </div>
         </div>
